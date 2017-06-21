@@ -1,0 +1,6 @@
+framework module SwiftVersionUtils {
+  umbrella header "SwiftVersionUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
