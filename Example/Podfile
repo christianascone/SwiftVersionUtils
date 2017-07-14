@@ -7,6 +7,7 @@ target 'SwiftVersionUtils_Example' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'
+    pod 'Fakery'
   pod 'Nimble', '~> 5.1.1'
   end
 end
