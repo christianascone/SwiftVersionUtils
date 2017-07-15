@@ -6,13 +6,14 @@ import SwiftVersionUtils
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
-        describe("these will fail") {
+        describe("base test") {
 
-            it("can read") {
-                expect("number") == "string"
-            }
-            it("can do maths") {
+            it("first build") {
                 expect("1") == SwiftVersionUtils.getBuildNumber()
+            }
+            
+            it("first version") {
+                expect("1.0") == SwiftVersionUtils.getVersion()
             }
 
             it("will eventually fail") {
