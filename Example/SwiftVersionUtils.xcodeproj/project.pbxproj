@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BE41B1B025616FEB2E827BA /* Pods_SwiftVersionUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftVersionUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C673ED5D8445D9C46EBC852 /* SwiftVersionUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftVersionUtils.podspec; path = ../SwiftVersionUtils.podspec; sourceTree = "<group>"; };
+		8C673ED5D8445D9C46EBC852 /* SwiftVersionUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftVersionUtils.podspec; path = ../SwiftVersionUtils.podspec; sourceTree = "<group>"; };
 		A71E8E76690D8D129AAFBBE1 /* Pods-SwiftVersionUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftVersionUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftVersionUtils_Example/Pods-SwiftVersionUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD72BA762031BA98231376D0 /* Pods-SwiftVersionUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftVersionUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftVersionUtils_Example/Pods-SwiftVersionUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D5A238621A92A69336811730 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5A238621A92A69336811730 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DC0BCF68B26592364939EA80 /* Pods_SwiftVersionUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftVersionUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F32F772B959C422D5759D829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F32F772B959C422D5759D829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,6 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVersionUtils_Example.app/SwiftVersionUtils_Example";
 			};
 			name = Debug;
 		};
@@ -552,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVersionUtils_Example.app/SwiftVersionUtils_Example";
 			};
 			name = Release;
 		};
