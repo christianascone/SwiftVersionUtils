@@ -6,44 +6,14 @@ import SwiftVersionUtils
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
-        describe("base test") {
+        describe("Version Info file") {
 
-            it("first build") {
+            it("has build 'number'") {
                 expect("1") == SwiftVersionUtils.getBuildNumber()
             }
             
-            it("first version") {
+            it("has version name") {
                 expect("1.0") == SwiftVersionUtils.getVersion()
-            }
-
-            it("will eventually fail") {
-                expect("time").toEventually( equal("done") )
-            }
-            
-            context("these will pass") {
-
-                it("can do maths") {
-                    expect(23) == 23
-                }
-
-                it("can read") {
-                    expect("🐮") == "🐮"
-                }
-
-                it("will eventually pass") {
-                    var time = "passing"
-
-                    DispatchQueue.main.async {
-                        time = "done"
-                    }
-
-                    waitUntil { done in
-                        Thread.sleep(forTimeInterval: 0.5)
-                        expect(time) == "done"
-
-                        done()
-                    }
-                }
             }
         }
     }
