@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode8.3
+podfile: Example/SwiftVersionUtils/Podfile
+
+before_install:
+- brew update
+- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+- cd Example/SwiftVersionUtils && pod repo update && pod install
+
+script:
+- xctool clean build -workspace SwiftVersionUtils.xcworkspace -scheme SwiftVersionUtils -sdk iphonesimulator | xcpretty
+- xcodebuild test -workspace SwiftVersionUtils.xcworkspace -scheme SwiftVersionUtils -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.3' | xcpretty
