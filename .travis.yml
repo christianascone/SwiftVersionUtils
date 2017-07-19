@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode8.3
-podfile: Example/SwiftVersionUtils/Podfile
+podfile: Example/Podfile
 
 before_install:
 - brew update
