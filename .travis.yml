@@ -9,5 +9,5 @@ before_install:
 - cd Example && pod repo update && pod install
 
 script:
-- xctool clean build -workspace Example/SwiftVersionUtils.xcworkspace -scheme Example/SwiftVersionUtils -sdk iphonesimulator | xcpretty
-- xcodebuild test -workspace Example/SwiftVersionUtils.xcworkspace -scheme Example/SwiftVersionUtils -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.3' | xcpretty
+- xcodebuild clean build -workspace Example/SwiftVersionUtils.xcworkspace -scheme SwiftVersionUtils-Example -sdk iphonesimulator | xcpretty
+- xcodebuild test -workspace Example/SwiftVersionUtils.xcworkspace -scheme SwiftVersionUtils-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.3' | xcpretty
