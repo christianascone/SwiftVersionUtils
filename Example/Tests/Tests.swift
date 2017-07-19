@@ -15,6 +15,10 @@ class TableOfContentsSpec: QuickSpec {
             it("has version name") {
                 expect("1.0 Test") == SwiftVersionUtils.getVersion()
             }
+            
+            it("will fail for travis test") {
+                expect("TestFail") == "TestPass"
+            }
         }
     }
 }
