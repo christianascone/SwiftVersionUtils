@@ -9,11 +9,11 @@ class TableOfContentsSpec: QuickSpec {
         describe("Version Info file") {
 
             it("has build 'number'") {
-                expect("1") == SwiftVersionUtils.getBuildNumber()
+                expect("1 Test") == SwiftVersionUtils.getBuildNumber()
             }
             
             it("has version name") {
-                expect("1.0") == SwiftVersionUtils.getVersion()
+                expect("1.0 Test") == SwiftVersionUtils.getVersion()
             }
         }
     }
