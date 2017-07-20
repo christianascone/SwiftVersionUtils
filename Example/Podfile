@@ -5,6 +5,7 @@ def prod_pods
 end
 
 def testing_pods
+    pod 'SwiftVersionUtils', :path => '../'
     pod 'Quick', '~> 1.0.0'
     pod 'Fakery'
     pod 'Nimble', '~> 5.1.1'
