@@ -61,7 +61,6 @@
 		D5A238621A92A69336811730 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D79CB1E611D4F4D7403FFA5E /* Pods_SwiftVersionUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftVersionUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC053D4C1F21027900DC33F0 /* SwiftVersionUtils_Example-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftVersionUtils_Example-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC053D4D1F21028200DC33F0 /* SwiftVersionUtils_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftVersionUtils_Example copy-Info.plist"; path = "/Users/lunasrls/Documents/Christian/ProgettiGithub/SwiftVersionUtils/Example/SwiftVersionUtils_Example copy-Info.plist"; sourceTree = "<absolute>"; };
 		F32F772B959C422D5759D829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC0E2A4A04372B99FFBF049E /* Pods-SwiftVersionUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftVersionUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftVersionUtils_Example/Pods-SwiftVersionUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFBA97C3C3E785100D96EE35 /* Pods-SwiftVersionUtils_Example-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftVersionUtils_Example-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftVersionUtils_Example-Staging/Pods-SwiftVersionUtils_Example-Staging.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +114,6 @@
 				607FACD21AFB9204008FA782 /* Example for SwiftVersionUtils */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				EC053D4D1F21028200DC33F0 /* SwiftVersionUtils_Example copy-Info.plist */,
 				4DB4838FAD96A0388DE14EA9 /* Pods */,
 				CE30CEF677EC75AC39A0BC1F /* Frameworks */,
 			);
