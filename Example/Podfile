@@ -5,20 +5,23 @@ def prod_pods
 end
 
 def testing_pods
-    pod 'SwiftVersionUtils', :path => '../'
-    pod 'Quick', '~> 1.0.0'
-    pod 'Fakery'
-    pod 'Nimble', '~> 5.1.1'
+  prod_pods
+  pod 'Quick', '~> 1.0.0'
+  pod 'Fakery'
+  pod 'Nimble', '~> 5.1.1'
 end
 
+# Main Target
 target 'SwiftVersionUtils_Example' do
-    prod_pods
+  prod_pods
 end
 
+# Staging Target (for tests)
 target 'SwiftVersionUtils_Example-Staging' do
-    prod_pods
+  prod_pods
 end
 
+# Test Target
 target 'SwiftVersionUtils_Tests' do
   testing_pods
 end
