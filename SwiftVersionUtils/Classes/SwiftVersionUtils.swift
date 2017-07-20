@@ -12,7 +12,7 @@ public class SwiftVersionUtils {
     static let SHORT_VERSION_KEY = "CFBundleShortVersionString"
     static let BUILD_NUMBER_KEY = "CFBundleVersion"
     
-    // MARK: -
+    // MARK: - Public
     
     /// If found in infoDictionary, returns the app version
     public static func getVersion() -> String? {
