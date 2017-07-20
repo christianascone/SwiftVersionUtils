@@ -1,6 +1,8 @@
 language: objective-c
 osx_image: xcode8.3
-podfile: Example/Podfile
+
+before_install:
+- cd Example && pod repo update && pod install && cd ..
 
 script:
 - xcodebuild clean build -workspace Example/SwiftVersionUtils.xcworkspace -scheme SwiftVersionUtils_Example-Tests -sdk iphonesimulator
