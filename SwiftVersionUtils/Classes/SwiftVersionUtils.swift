@@ -7,20 +7,20 @@
 
 import Foundation
 
-class SwiftVersionUtils {
+public class SwiftVersionUtils {
     // MARK: Constants
     static let SHORT_VERSION_KEY = "CFBundleShortVersionString"
     static let BUILD_NUMBER_KEY = "CFBundleVersion"
     
-    // MARK: -
+    // MARK: - Public
     
     /// If found in infoDictionary, returns the app version
-    static func getVersion() -> String? {
+    public static func getVersion() -> String? {
         return readStringFromMainBundle(key: SHORT_VERSION_KEY)
     }
     
     /// If found in infoDictionary, returns the build number
-    static func getBuildNumber() -> String? {
+    public static func getBuildNumber() -> String? {
         return readStringFromMainBundle(key: BUILD_NUMBER_KEY)
     }
     
