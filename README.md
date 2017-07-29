@@ -20,6 +20,24 @@ it, simply add the following line to your Podfile:
 pod "SwiftVersionUtils"
 ```
 
+## Usage
+
+First import SwiftVersionUtils module in your class
+
+```swift
+import SwiftVersionUtils
+```
+
+Then you're ready to use it as follows
+
+```swift
+let version = SwiftVersionUtils.getVersion()
+```
+
+```swift
+let buildNumber = SwiftVersionUtils.getBuildNumber()
+```
+
 ## Author
 
 christianascone, ascone.christian@gmail.com
