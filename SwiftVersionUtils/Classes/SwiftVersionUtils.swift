@@ -16,12 +16,14 @@ public class SwiftVersionUtils {
     
     // MARK: - Public
     
-    /// If found in infoDictionary, returns the app version
+    /// If found in Main Bundle Info dictionary, returns the app version
+    /// as String.
     public static func getVersion() -> String? {
         return readStringFromMainBundle(key: SHORT_VERSION_KEY)
     }
     
-    /// If found in infoDictionary, returns the build number
+    /// If found in Main Bundle Info dictionary, returns the build number
+    /// as String.
     public static func getBuildNumber() -> String? {
         return readStringFromMainBundle(key: BUILD_NUMBER_KEY)
     }
