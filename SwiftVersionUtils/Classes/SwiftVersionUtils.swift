@@ -7,6 +7,8 @@
 
 import Foundation
 
+/// Utility class for an easy way to read version
+/// and bundle number of your application
 public class SwiftVersionUtils {
     // MARK: Constants
     static let SHORT_VERSION_KEY = "CFBundleShortVersionString"
